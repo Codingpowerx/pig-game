@@ -1,0 +1,17 @@
+main{
+    position: relative;
+    width: 100rem;
+    height: 60rem;
+    background-color: $back-ground-1;
+    backdrop-filter: blur(200px);
+    filter: blur();
+    -webkit-filter: blur();
+    box-shadow: 0 3rem 5rem  $box-shadow;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+}
